@@ -82,22 +82,22 @@
 }
 
 .bridge-image {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/40/The_Henry_Hudson_Bridge.jpg");
+	background-image: url("../images/bridge.jpg");
     background-position: center center;
 }
 
 .station-image {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/84/Spuyten_Duyvil_November_2012.jpg");
+	background-image: url("../images/station.jpg");
     background-position: center center;
 }
 
 .garden-image {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c5/Wave_Hill_entrance.jpg");
+	background-image: url("../images/WaveHill.jpg");
     background-position: center center;
 }
 
 .yankee-image {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3f/Le_Yankee_Stadium.jpg");
+	background-image: url("../images/Yankees.jpg");
     background-position: center center;
 }
 
