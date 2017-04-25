@@ -1,0 +1,142 @@
+.body {
+    font-family: Comic Sans MS", cursive, sans-serif;
+    font-size: 14px;
+	background-color: #F7F3E3;
+	color: #0B3954;
+}
+
+.navbar {
+    background: #ff9933;
+}
+
+.navbar-brand {
+	color:#339966 !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color:#FFFFFF;
+}
+
+.jumbotron {
+  background-color: #339966;
+  margin-top: 80px;
+}
+
+.kids-image {
+  padding-top: 300px;    
+  background-size: 90% 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.kids-header {
+    text-align: center;
+}
+
+
+
+@media (min-width: 1200px) {
+.container  {
+    width: 1180px;
+}
+}
+
+
+@media (min-width: 992px) {
+.container {
+    width: 950px;
+}
+}
+
+@media (min-width: 768px) {
+.container {
+    width: 740px;
+}
+}
+
+/*Removed to replace with flex wrap for row class -IS */
+/*.row-spring .row-summer {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap !important;*/
+/*}*/
+
+/*Added thed flexbox wrap code to the .row class -IS */
+.row {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.thumbnail img {
+    width: 100%;
+   }  
+
+.page-header{
+	color: #0B3954;
+	border-bottom-color: #FF6663;
+}
+
+.carousel-image {
+	background-size: cover;
+	width: 100%;
+	height:500px;
+}
+
+.bridge-image {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/40/The_Henry_Hudson_Bridge.jpg");
+    background-position: center center;
+}
+
+.station-image {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/84/Spuyten_Duyvil_November_2012.jpg");
+    background-position: center center;
+}
+
+.garden-image {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c5/Wave_Hill_entrance.jpg");
+    background-position: center center;
+}
+
+.yankee-image {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3f/Le_Yankee_Stadium.jpg");
+    background-position: center center;
+}
+
+
+.caption h3 {
+    text-align:center;
+}
+
+.container-map p {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+    
+.btn-info {
+    color: #fff;
+    background-color: #339966;
+    border-color: #ff9933;
+    border-width: thick;
+}
+
+.container-contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 30px;
+      
+}
+
+.row-contact {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+   
+}
+
+.btn-default {
+     background-color: #339966;
+}
+
+.modal-body {
+    text-align: left;
+}
